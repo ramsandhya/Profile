@@ -1,14 +1,190 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Static Sites with Ruby on Heroku/Cedar</title>
-  <script type="text/javascript" src="js/foo.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/bar.css" />
-</head>
-<body>
-  <h1>Static Sites with Ruby on Heroku/Cedar</h1>
-  <p>Read the <a href="https://gist.github.com/3157115">gist</a>; explore the <a href="https://github.com/leereilly/static-site-heroku-cedar-example">repo</a>.</p>
-  <img src="images/dodgeball.jpg">
-</body>
+<html>
+	<head>
+		<title>Sandhya.IO</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/pio.css">
+		<link rel="stylesheet" type="text/css" href="css/pio-css.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<script src="js/respond.min.js"></script>
+	</head>
+
+	<body>
+
+		<nav class="main" style="display: block;">
+			<ul>
+				<li><a class="tohome" href="#">About me</a></li>
+				<li><a class="toprojects" href="#">Projects</a></li>
+				<li><a class="toservices" href="#">Skills</a></li>
+				<li><a class="tocontact" href="#">Contact</a></li>
+
+			</ul>
+		</nav>
+
+		<section id="section0">
+			<canvas id="canvasElement" width="1366" height="290" style="display: inline;"></canvas>
+			<div id="content">
+				<h1>SANDHYA.IO</h1>
+				<img id="profilepic" src="images/profilepic3.png" alt=""><br>
+				<div class="socialicons">
+					<a href="http://facebook.com/username" target="_blank" title="Facebook"><i class="fa fa-facebook-square"></i></a>
+					<a href="http://twitter.com/username" target="_blank" title="Twitter"><i class="fa fa-twitter-square"></i></a>
+					<a href="http://linkedin.com/username" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+					<a href="https://github.com/ramsandhya" target="_blank" title="Github"><i class="fa fa-github-square"></i></a>
+				</div>
+			</div>
+		</section>
+		<section class="projectinfo">
+			<section class="extra">
+				<div class="projects">
+				  	<ul>
+						  <li class="project-screenshot p1">
+								<div class="project">
+									<h3>
+										<a target="_blank" class="foliolink" href="">Calculator →</a>
+									</h3>
+									<p>HTML, CSS, JAVASCRIPT</p>
+								</div>
+								<a class="foliohover" href="#">
+									<img src="images/calculator.png" class="attachment-post-thumbnail" alt="">
+								</a>
+							</li>
+							<li class="project-screenshot p2">
+								<div class="project">
+									<h3><a target="_blank" class="foliolink" href="">TIC TAC TOE →</a></h3><p>HTML, CSS, JAVASCRIPT, JQUERY</p>
+								</div>
+								<a class="foliohover" href="#">
+									<img width="400" height="400" src="images/tictactoe.png" class="attachment-post-thumbnail" alt="">
+								</a>
+							</li>
+							<li class="project-screenshot p1">
+								<div class="project">
+									<h3>
+										<a target="_blank" class="foliolink" href="">BLACKJACK →</a>
+									</h3>
+									<p>HTML, CSS, JAVASCRIPT, JQUERY</p>
+								</div>
+								<a class="foliohover" href="#">
+									<img height="400" src="images/blackjack.png" class="attachment-post-thumbnail" alt="">
+								</a>
+							</li>
+						</ul>
+						<ul>
+						  <li class="project-screenshot p1">
+								<div class="project">
+									<h3>
+										<a target="_blank" class="foliolink" href="https://www.google.com/">CANVAS GAME →</a>
+									</h3>
+									<p>HTML CANVAS, JQUERY</p>
+								</div>
+								<a class="foliohover" href="https://www.google.com/">
+									<img width="400" height="400" src="images/canvasgame.png" class="attachment-post-thumbnail" alt="">
+								</a>
+							</li>
+							<li class="project-screenshot p2">
+								<div class="project">
+									<h3><a target="_blank" class="foliolink" href="">MEMORY GAME →</a></h3><p>HTML, CSS, JAVASCRIPT, JQUERY</p>
+								</div>
+								<a class="foliohover" href="#">
+									<img width="400" height="400" src="images/memorygame.png" class="attachment-post-thumbnail" alt="">
+								</a>
+							</li>
+							<li class="project-screenshot p1">
+								<div class="project">
+									<h3>
+										<a target="_blank" class="foliolink" href="">MOVIEPLEX →</a>
+									</h3>
+									<p>AJAX, JQUERY</p>
+								</div>
+								<a class="foliohover" href="#">
+									<img height="400" src="images/movieplex.png" class="attachment-post-thumbnail" alt="">
+								</a>
+							</li>
+							<li class="project-screenshot p1">
+								<div class="project">
+									<h3>
+										<a target="_blank" class="foliolink" href="">SPORTAKUS →</a>
+									</h3>
+									<p>ANGULAR</p>
+								</div>
+								<a class="foliohover" href="#">
+									<img height="400" src="images/sportakus.png" class="attachment-post-thumbnail" alt="">
+								</a>
+							</li>
+						</ul>
+						<li class="project-screenshot p1">
+							<div class="project">
+								<h3>
+									<a target="_blank" class="foliolink" href="">WEATHER APP →</a>
+								</h3>
+								<p>ANGULAR</p>
+							</div>
+							<a class="foliohover" href="#">
+								<img height="400" src="images/weatherapp.png" class="attachment-post-thumbnail" alt="">
+							</a>
+						</li>
+					</ul>
+
+
+				</div>
+
+			</section>
+
+		</section>
+
+		<!-- <div class="row">
+			<div class="col-md-3">
+				<i class="fa fa-html5" style="font-size:48px;color:red"></i>
+			</div>
+			<div class="col-md-3">
+				<i class="fa fa-ccs3" style="font-size:48px;color:red"></i>
+			</div>
+			<div class="col-md-3">
+				<i class="fa fa-html5" style="font-size:48px;color:red"></i>
+			</div>
+			<div class="col-md-3">
+				<i class="fa fa-ccs3" style="font-size:48px;color:red"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<i class="fa fa-html5" style="font-size:48px;color:red"></i>
+			</div>
+			<div class="col-md-3">
+				<i class="fa fa-ccs3" style="font-size:48px;color:red"></i>
+			</div>
+			<div class="col-md-3">
+				<i class="fa fa-html5" style="font-size:48px;color:red"></i>
+			</div>
+			<div class="col-md-3">
+				<i class="fa fa-ccs3" style="font-size:48px;color:red"></i>
+			</div>
+		</div> -->
+		<section class="extra" id="section5">
+
+			<div class="fiddy">
+
+				<h2>Skills</h2>
+				<div class="grid-container row">
+					<div class="services col span_12">
+
+						<p>Hello! My name is Sandhya Kumari, and I am a full-stack web developer. Currently, I am undergoing Immersive Bootcamp with <a href="http://www.digitalcrafts.com">DigitalCrafts</a> <br><br>I have a diverse set of skills, ranging from design, to HTML + CSS + Javascript.</p>
+
+						<h2 class="contact">Contact</h2>
+						<div class="socialicons">
+							<a href="http://facebook.com/username" target="_blank" title="Facebook"><i class="fa fa-facebook-square"></i></a>
+							<a href="http://twitter.com/username" target="_blank" title="Twitter"><i class="fa fa-twitter-square"></i></a>
+							<a href="https://www.linkedin.com/profile/preview?trk=prof-0-sb-preview-primary-button&locale=en_US" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+							<a href="https://github.com/ramsandhya" target="_blank" title="Github"><i class="fa fa-github-square"></i></a>
+						</div>
+						<p>I'm available for freelance contracts, so get in touch: <a href="mailto:ram.sandhya@gmail.com">ram.sandhya@gmail.com</a></p>
+
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/pio.min.js"></script>
+	</body>
 </html>
