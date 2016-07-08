@@ -115,13 +115,13 @@ section {
 	vertical-align: top;
 }
 
-#section5 {
+/*#section5 {
 	padding-top: 30px;
 	background-color: #1A3742;
-	background-image: url('/img/bg_blue.png');
+	background-image: url('../images/bg_blue.png');
 	background-repeat: no-repeat;
 	background-position: bottom middle;
-}
+}*/
 
 #section5 h3 {
 	color: #E6E0CB;
@@ -150,14 +150,14 @@ section {
 	background-position: center left;
 	padding-top: 3em;
 	padding-bottom: 1em;
-	background-image: url('/img/bgl.jpg');
+	background-image: url('../images/bgl.jpg');
 /*	background-attachment: fixed;*/
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/bgl.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/bgl.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bgl.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bgl.jpg', sizingMethod='scale')";
 }
 
 #logo {
@@ -222,7 +222,7 @@ nav.main a:hover {
 }
 
 nav.sticky {
-/*	background-image: url('/img/head-bg.png');
+/*	background-image: url('../images/head-bg.png');
 	background-color: #fff;*/
 	position: fixed;
 	color: #000;
@@ -1053,8 +1053,70 @@ footer {
 
 .socialicons a:hover { color: black; }
 
-#profilepic{
+#profilepic {
 	height: 300px;
 	width: 275px;
 	border-radius: 50%;
+}
+.wrap {
+    width: 50%;
+    margin: 0 auto;
+}
+/*h1 {
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    padding: .5em 0;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #dadada;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+ul li {
+    line-height: 2;
+    font-weight: bold;
+    font-family:"Montserrat", sans-serif;
+    font-size: .85em;
+    text-transform: uppercase;
+    clear: both;
+}
+ul li:before {
+    content:"\2023";
+    padding: 0 1em 0 0;
+}*/
+.bar {
+    background: #e74c3c;
+    width: 0;
+    margin: .25em 0;
+    color: #fff;
+    position: relative;
+    transition: width 2s, background .2s;
+    clear: both;
+}
+.bar:nth-of-type(2n) {
+    background: #ed7669;
+}
+.bar .label {
+    font-size: .75em;
+    padding: 1em;
+    background: #3d3d3d;
+    width: 8em;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-family:"Montserrat", sans-serif;
+}
+.bar .label.light {
+    background: #575757;
+}
+.count {
+    position: absolute;
+    right: .25em;
+    top: .75em;
+    padding: .15em;
+    font-size: .75em;
+    font-weight: bold;
+    font-family:"Montserrat", sans-serif;
 }
