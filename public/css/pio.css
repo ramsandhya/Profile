@@ -1049,9 +1049,9 @@ footer {
 	text-align:center;
 
 }
-.socialicons a { color:#e6975f !important; font-size: 50pt; padding: 20px; }
+.socialicons a { color:#e6975f !important; font-size: 50pt; padding: 10px; }
 
-.socialicons a:hover { color: black; }
+.socialicons a i:hover { color: #405554; }
 
 #profilepic {
 	height: 300px;
