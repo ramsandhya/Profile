@@ -99,6 +99,7 @@ section {
 	background-image: -moz-linear-gradient(top, #1A3742, #9EA183);
 	background-image: -ms-linear-gradient(top, #1A3742, #9EA183);
 	background-image: -o-linear-gradient(top, #1A3742, #9EA183);
+
 }
 
 #section1 {
@@ -115,13 +116,13 @@ section {
 	vertical-align: top;
 }
 
-/*#section5 {
+#section5 {
 	padding-top: 30px;
 	background-color: #1A3742;
 	background-image: url('../images/bg_blue.png');
 	background-repeat: no-repeat;
 	background-position: bottom middle;
-}*/
+}
 
 #section5 h3 {
 	color: #E6E0CB;
@@ -471,7 +472,9 @@ nav a {
 	padding-bottom: 0em;
 /*	height: 33%;*/
 }
+.col-sm-3{
 
+}
 
 /* DEFAULT COLUMN STYLES */
 .col {
@@ -787,6 +790,7 @@ footer {
     width: 100%;
     float: left;
 	 background-color: #fff;
+	 background-image: url('../images/bgl.jpg');
 }
 
 .projects ul {
@@ -932,25 +936,6 @@ footer {
 	display: block;
 }
 
-.category-dance .post-info-cat {
-    color: #c91e3e;
-}
-
-.category-electronic .post-info-cat {
-    color: #c91e3e;
-}
-
-.category-hiphop .post-info-cat {
-    color: #0ea3e9;
-}
-
-.category-indie .post-info-cat {
-    color: #38c676;
-}
-
-.category-playlists .post-info-cat {
-    color: #fcff00;
-}
 
 @media screen and (max-width: 2560px) {
     .projects li {
@@ -1025,8 +1010,8 @@ footer {
 }
 
 .services p {
-	display: block;
-	float: left;
+	/*display: block;*/
+	/*float: left;*/
 	width: 80%;
 	padding: 0px;
 	font-size: 1em;
