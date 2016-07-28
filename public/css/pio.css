@@ -888,12 +888,6 @@ footer {
 	 z-index: 1;
 }
 
-.project-screenshot {
-	background-size: cover;
-	background-position: top center;
-	background-color #000;
-
-}
 
 .project {
     position: absolute;
@@ -911,6 +905,7 @@ footer {
     transition:all .3s;
 	 padding: 5px;
 	 font-size: 0.7em;
+	 opacity: 0.6;
 }
 
 .project h3, .project p {
@@ -919,8 +914,9 @@ footer {
 }
 
 .project p {
-	color: #888;
+	color: black;
 	font-weight: bold;
+	font-size: 10px;
 }
 
 .project li {
@@ -933,7 +929,7 @@ footer {
 }
 
 .foliolink {
-	color: #000 !important;
+	color: #1a3a45 !important;
 	display: block;
 }
 
@@ -1120,4 +1116,10 @@ h3 {
 .title{
 	font-size: 40px;
 	color: #e6e0cb;
+}
+.project-screenshot {
+	background-size: cover;
+	background-position: top center;
+	background-color: #e6e0cb;
+
 }
