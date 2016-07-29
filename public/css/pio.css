@@ -120,7 +120,8 @@ section {
 	/*background-color: #1A3742;*/
 	background-image: url('../images/bg_blue.png');
 	background-repeat: no-repeat;
-	/*background-position: bottom middle;*/
+	/*background-position: bottom
+	middle;*/
 	padding-bottom: 30px;
 }
 
@@ -1122,4 +1123,7 @@ h3 {
 	background-position: top center;
 	background-color: #e6e0cb;
 
+}
+.end{
+	background-image: url('../images/bgl.jpg');
 }
