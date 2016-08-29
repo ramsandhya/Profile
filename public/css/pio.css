@@ -140,7 +140,7 @@ section {
 }
 
 .extra {
-	/*height: auto;*/
+	height: auto;
 	overflow: scroll;
 	background-color: #5A6A61;
 }
@@ -286,7 +286,7 @@ nav a {
 
 .fiddy {
 	position: relative;
-	height: 50%;
+	height: 100%;
 	padding-top: 8em;
 	padding-bottom: 12em;
 }
