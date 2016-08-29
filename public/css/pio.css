@@ -141,7 +141,7 @@ section {
 
 .extra {
 	/*height: auto;*/
-	overflow: hidden;
+	overflow: scroll;
 	background-color: #5A6A61;
 }
 
@@ -793,6 +793,7 @@ footer {
     float: left;
 	 background-color: #fff;
 	 background-image: url('../images/bgl.jpg');
+	 overflow: scroll;
 }
 
 .projects ul {
